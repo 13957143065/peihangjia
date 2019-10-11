@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+
+
+
+
+    <link rel="stylesheet" href="http://static.games.wanmei.com/public/style/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="http://sdxl2.laohu.com/_s/homev190814/main0919.css">
+  
+</head>
+<body>
+    <div class="container">
+        <div class="newswrap">
+            <a href="http://sdxl2.laohu.com/201909/230182.html" target="_blank" class="ovf">
+                <span class="tag">
+                【新闻】</span>萌宠X女包 《神雕侠侣2》超有设计感的高级女包来
+            </a><span class="time">09-04</span>
+            <a href="http://sdxl2.laohu.com/201909/230141.html" target="_blank" class="ovf">
+                <span class="tag">
+                【新闻】</span>《神雕侠侣2》新玩法全解析 跨服组队夺秘宝     
+            </a><span class="time">09-02</span>
+            <a href="http://sdxl2.laohu.com/201908/230073.html" target="_blank" class="ovf">
+                <span class="tag">
+                【新闻】</span>一剑一雕一江湖 《神雕侠侣2》“独孤一剑”今日公测
+            </a><span class="time">08-23                                    </span>
+            <a href="http://sdxl2.laohu.com/201908/230053.html" target="_blank" class="ovf">
+                <span class="tag">
+                【新闻】
+                </span>音频怪物携手金莎献唱《神雕侠侣2》推荐曲《雕雕雕》    
+            </a><span class="time">08-22                                    </span>
+            <a href="http://sdxl2.laohu.com/201908/230000.html" target="_blank" class="ovf">
+                <span class="tag">
+                【新闻】
+                </span>《神雕侠侣2》“独孤一剑”8月23日上线 雕兄变人竟长这样 
+            </a>
+                <span class="time">08-19</span>
+        </div>
+                    </div>
+                </div>
+                <div class="adm-swiper fl">
+                    <div class="swiper-container adm-container swiper-no-swiping" id="swiper1">
+                        <div class="swiper-wrapper">
+    
+                            <div class="swiper-slide">
+                                <a href="http://sdxl2.laohu.com/201908/230000.html" class="adm2" target="_blank">
+                                    <img src="http://sdxl2.laohu.com/_s/0705/adm2.jpg" alt="">
+                                    <img src="http://sdxl2.laohu.com/_s/homev190814/adm2-icon.png" alt="" class="adm-icon">
+                                </a>
+                                <span class="stit"><b>01</b>独孤剑魔重现江湖</span>
+                                <div class="line"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="http://games.wanmei.com/video/20190822/219523.shtml" class="adm3"  target="_balank">
+                                    <img src="http://sdxl2.laohu.com/_s/0705/adm3.jpg" alt="">
+                                    <img src="http://sdxl2.laohu.com/_s/homev190814/adm3-icon.png" alt="" class="adm-icon">
+                                </a>
+                                <span class="stit"><b>02</b>主题曲《雕雕雕》</span>
+                                <div class="line"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="http://sdxl2.wanmei.com/hd/1907/show/index.html" class="adm4"  target="_balank">
+                                    <img src="http://sdxl2.laohu.com/_s/0705/adm4.jpg" alt="">
+                                    <img src="http://sdxl2.laohu.com/_s/homev190814/adm4-icon.png" alt="" class="adm-icon">
+                                </a>
+                                <span class="stit"><b>03</b>谁是小龙女</span>
+                                <div class="line"></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="http://sdxl2.laohu.com/201907/229862.html" class="adm5" target="_blank">
+                                    <img src="http://sdxl2.laohu.com/_s/0705/adm5.jpg" alt="">
+                                    <img src="http://sdxl2.laohu.com/_s/homev190814/adm5-icon.png" alt="" class="adm-icon">
+                                </a>
+                                <span class="stit"><b>04</b>新服开放查询</span>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination adm-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next adm-next"></div>
+                        <div class="swiper-button-prev adm-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <script type="text/javascript" src="https://static.games.wanmei.com/public/js/jq_183.js">
+    </script>
+    <script type="text/javascript" src="http://static.games.wanmei.com/public/js/jquery.SuperSlide.2.1.js">
+    </script>
+    <script type="text/javascript" src="http://static.games.wanmei.com/public/js/swiper-3.4.2.min.js">
+    </script>
+    <script type="text/javascript" src="https://static.games.laohu.com/_s/public/jquery.boxy.js">
+    </script>
+    <script type="text/javascript">
+        $(function(){
+            $(".admbox").slide({mainCell:".bd ul",autoPlay:true,trigger:"click"});
+            $(".newsbox").slide({
+            titCell : ".hd li",
+            mainCell : ".bd",
+            trigger: "click",
+            targetCell: ".more a"
+            })
+            $(".rolewrap").slide({});
+            $(".game").slide({mainCell:".bd ul",autoPlay:true,trigger:"click"});
+
+            //门派介绍
+            $('#sects').on('click',function(){
+                var t=$(this).attr('data-top');
+                $('html,body').stop().animate({scrollTop:t},300);
+            });
+
+            $('.bgbtn').on('click',function(){
+                $(this).toggleClass('on');
+                $('.m1').toggleClass('m1-1');
+                if($(this).hasClass('on')){
+                    $(".btnplay").attr('href',"http://games.wanmei.com/video/20190726/219178.shtml");
+                }else{
+                    $(".btnplay").attr('href',"http://games.wanmei.com/video/20190726/219177.shtml");
+                }
+            })
+        });
+        var admName=['独孤剑魔重现江湖','主题曲《雕雕雕》','谁是小龙女','新服开放查询'];
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.adm-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            nextButton: '.adm-next',
+            prevButton: '.adm-prev',
+            coverflow: {
+                rotate: 0,
+                stretch: 4,
+                depth: 200,
+                modifier: 1,
+                slideShadows : true
+            },
+            loop:true,
+            paginationClickable: true,
+            paginationBulletRender: function (swiper, index, className) {
+                return '<span class="' + className + '"> <b>' + admName[index] + '</b></span>';
+            }
+        });
+    </script>
+    <script type="text/javascript" src="http://static.games.wanmei.com/public/js/stat.js">
+    </script>
+    <div style="display:none;">
+    <script src='http://w.cnzz.com/q_stat.php?id=1000331158&l=3' language='JavaScript'>
+    </script>
+    <script src='https://w.cnzz.com/c.php?id=1273785619&l=3' language='JavaScript'>
+    </script>
+
+</body>
+</html>

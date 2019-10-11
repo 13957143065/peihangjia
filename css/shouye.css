@@ -1,0 +1,327 @@
+*{margin:0;padding: 0;}
+.after:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.m1 {
+    height: 921px;
+    background: url(http://sdxl2.laohu.com/_s/0705/m1-main.jpg) no-repeat center top;
+    position: relative;
+}
+.m1-1{height: 921px; background: url(http://sdxl2.laohu.com/_s/homev190814/m1-1main.jpg) no-repeat center top; position: relative;}
+
+.m2{ height: 765px; background: url(http://sdxl2.laohu.com/_s/homev190814/m2-main.jpg) no-repeat center top; position: relative;}
+.m3{ height: 1112px; background: url(http://sdxl2.laohu.com/_s/homev190814/m3-main.jpg) no-repeat center top; position: relative;}
+.m4{ height: 894px; background: url(http://sdxl2.laohu.com/_s/homev190814/m4-main.jpg) no-repeat center top; position: relative;}
+.m5{ height: 1308px; background: url(http://sdxl2.laohu.com/_s/homev190814/m5-main.jpg) no-repeat center top; position: relative;}
+/*头部*/
+
+.q1{
+    width:1200px;
+    height:70px;
+    margin:auto;
+    background-color:#291D4F;
+}
+.before:before{
+    content: "";
+    display: table;
+}
+.container>.m1-1>div>div>a{
+    display:inline-block;
+}
+.container>.m1-1>div>div>a>img{
+    display:inline-block;
+    width:228px;
+    height:108px;
+    margin-top:10px;  
+}
+.q1{
+    width:1200px;
+    height:70px;
+    margin:auto;
+}
+.q1>a:first-child{
+    float: left;
+}
+.before>ul>li{
+    width:68px;
+    height:70px;
+    list-style: none;
+    font-size:16px;
+    float: left;
+    margin-left:50px;
+    line-height:77px;
+}
+.before>ul>li:first-child{
+    margin-left: 100px;
+}
+.before>ul>li>a{
+    color:#fff;
+    text-decoration:none;
+} 
+.a1>a{
+    border-bottom: 2px solid #c7b67c;
+}
+.a1>a{
+    color:#c7b67c !important;
+}
+.m1-1 ul>li:hover{
+    border-bottom: 2px solid #c7b67c;
+    
+}
+.m1-1 ul>li:hover a{color:#c7b67c;}
+/*扫码登录*/
+.d1{
+    width: 458px;
+    height: 119px;
+    margin:0 auto;
+    display:inline-block;
+    position:absolute;
+    left:0;bottom:0;
+    margin-bottom: 20px;
+}
+.d1>img:first-child{
+    width:auto;
+    height:85%;
+    margin-left:20px;
+    margin-top:-95px;
+}
+.d1>span{
+    width:14px;
+    font-size: 13px;
+    display:inline-block;
+
+}
+.c1{
+    width: 1200px;
+    height: 721px;
+    margin:0 auto;
+    position:relative;
+}
+
+.m1-1>span{
+    display:block;
+    width:1200px;
+    height: 104px;
+    margin: 0 auto;
+    padding-top: 10px;
+    animation: Updown 1s infinite alternate;
+}
+#i1{
+    position:relative;
+    left:0px;
+    top:-45px;
+}
+.m1-1>span>img{
+    display: block;
+    margin:0 auto;
+}
+@keyframes Updown {
+    from {
+      margin-top: 20px;
+    }
+    to {
+      margin-top: 10px;
+    }
+  }
+/*轮播图*/
+.m2>div{
+    width: 1200px;
+    height: 765px;
+    margin:0 auto;
+    position:relative;
+}
+#flash{
+    width: 596px;
+    height: 388px;
+    border:1px solid black;
+    overflow: hidden;
+}
+#falsh img{
+    left: 0;
+    top: 0;
+}
+#flash1{
+    width: 300px;
+}
+#flash1 ul{
+    margin-left:200px;
+    margin-top:10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+#flash1 ul li{
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-top: 7px;
+    list-style: none;
+}
+/*热点资讯*/
+.d2{
+    position: relative;
+    width: 590px;
+    height: 410px;
+    float: right;
+    position:relative;
+    bottom:430px;
+    
+}
+.d2>div:first-child>ul>li:hover{
+    border-bottom:3px solid  #c7b67c;
+}
+/*公告*/
+.d2>div:first-child{
+    width: 590px;
+    height: 67px;
+}
+.d2>div:first-child>ul>li{
+    width: 88px;
+    height: 66px;
+    list-style:none;
+    float:left; 
+    margin:0 auto;
+    text-align: center;
+    line-height: 66px;
+}
+.d2>div:first-child>ul>li>a{
+    text-decoration:none;
+    font-size:22px;
+    color:#fff;
+    margin:0 auto;
+}
+.d2>div:first-child>ul>li:first-child{
+    border-bottom:3px solid  #c7b67c;
+}
+.d2>div:first-child>img{
+    position: absolute;
+    left:550px;
+    top:20px;
+}
+.d2>a{
+    display: block;
+    margin-top:6px;
+    margin-bottom: 16px;
+    color:#8D3C3C;
+    text-decoration:none;
+    font-size: 22px;
+    background-color: #fff;
+    font-weight: 600;
+}
+.d2>a>span{
+    width: 95px;
+    height: 58px;
+    background-color: #C7B67C;
+    margin-right:60px;
+    display:inline-block;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 58px;
+    font-weight: 600;
+}
+.d2>div:nth-child(3){
+    width: 590px;
+    height: 24px;
+}
+.d2>div:nth-child(3)>ul>li{
+    line-height: 50px;
+    list-style:none;
+}
+.d2>div:nth-child(3)>ul>li>a{
+    text-decoration:none;
+    font-size:18px;
+    color:#fff;
+}
+.d2>div:nth-child(3)>ul>li>span{
+    float:right;
+    font-size: 18px;
+    color:#fff;
+}
+/*第二个轮播图*/
+.k1{
+    width: 1200px;
+    height: 330px;
+    position: absolute;
+    left:-609px;
+    top:434px;
+   
+}
+.k1>a:first-child{
+    width: 468px;
+    height: 201px;
+    display:inline-block;
+    position: absolute;
+    left:360px;
+    top:45px;
+    z-index: 5;
+}
+.k1>a:first-child>img:first-child{
+    width: 468px;
+    height: 201px;
+    display:block;
+}
+.k1>a>img:nth-child(2){
+    position: absolute;
+    left:30px;
+    top:25px;
+    z-index: 5;
+}
+.k1>img:nth-child(2){
+    position: absolute;
+    left:260px;
+    top:130px;
+    cursor:pointer;
+    z-index: 5;
+}
+.k1>img:nth-child(3){
+    position: absolute;
+    left:850px;
+    top:130px;
+    cursor:pointer;
+    z-index: 5;
+}
+.k1>a:nth-child(4)>img{
+    width: 403px;
+    height: 174px;
+    position: absolute;
+    left:796px;
+    top:20px;
+    z-index: 1;
+}
+.k1>a:nth-child(5)>img{
+    width: 403px;
+    height: 174px;
+    position: absolute;
+    top:20px;
+    z-index: 1;
+}
+.d3{
+    width: 1200px;
+    height: 37px;
+    z-index: 10;
+    position: absolute;
+    top:260px;
+}
+.d3>span:first-child{
+    position: absolute;
+    left:415px;
+}
+.d3>span:nth-child(2){
+    position: absolute;
+    left:540px;
+}
+.d3>span:nth-child(3){
+    position: absolute;
+    left:667px;
+}
+.d3>span:nth-child(4){
+    position: absolute;
+    left:800px;
+}
